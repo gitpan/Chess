@@ -54,13 +54,13 @@ sub canmove {
     if (abs ($currfile - $file) == 1) {
 	if ($colour eq 'White') {
 	    if ($rank - $currank != 1) {
-		carp "Chess::Piece::Pawn::canmove(): error: illegal move '$location'";
+		carp "Chess::Piece::Pawn::canmove(): error: illegal move '$location'" if DEBUG;
 		return ILLEGAL;
 	    }
 	}
 	else {
 	    if (($currank - $rank) != 1) {
-		carp "Chess::Piece::Pawn::canmove(): error: illegal move '$location'";
+		carp "Chess::Piece::Pawn::canmove(): error: illegal move '$location'" if DEBUG;
 		return ILLEGAL;
 	    }
 	}

@@ -1,7 +1,7 @@
 TODO as of 17-Mar-2002 (Happy St. Patrick's Day!)
 
 - Finish reachable functions for all piece types
-- Implement stalemate validation
+- Implement stalemate and checkmate validation
 - Create the Chess::Engine which will have hooks for connecting UIs and AIs
 - Create rudimentary UI (no network or AI yet)
 

@@ -68,7 +68,10 @@ sub line_isopen {
     $deltay = 1 if $rank1 < $rank2;
     $deltay = -1 if $rank1 > $rank2;
     return 1 if !$deltax && !$deltay;
-    while (($rank1 += $deltay) != $rank2 && ($file1 += $deltax) != $file2) {
+    # Credit to Cyril Scetbon <cyril.scetbon@wanadoo.fr for
+    # debugging the following conditional expression
+    while ( ($deltay ? ($rank1 += $deltay) != $rank2 : 1) && 
+            ($deltax ? ($file1 += $deltax) != $file2) : 1) ){
 	return 0 if defined ($board->{board}[$file1][$rank1]);
     }
     return 1;
