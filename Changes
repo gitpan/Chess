@@ -1,0 +1,199 @@
+
+RCS file: /home/CVSROOT/Chess/Chess/Board.pm,v
+Working file: Chess/Board.pm
+head: 1.4
+branch:
+locks: strict
+access list:
+symbolic names:
+	stable-0_5: 1.4.0.4
+	release-0_5: 1.4.0.2
+keyword substitution: kv
+total revisions: 5;	selected revisions: 1
+description:
+----------------------------
+revision 1.4
+date: 2002/03/17 19:36:03;  author: brian;  state: Exp;  lines: +4 -1
+branches:  1.4.4;
+Modified movement and validation to include check and checkmate validation
+=============================================================================
+
+RCS file: /home/CVSROOT/Chess/Chess/Attic/Engine.pm,v
+Working file: Chess/Engine.pm
+head: 0.2
+branch:
+locks: strict
+access list:
+symbolic names:
+	development: 0.1.0.1
+	Brian: 0.1.0
+keyword substitution: kv
+total revisions: 3;	selected revisions: 1
+description:
+----------------------------
+revision 0.2
+date: 2002/02/18 22:47:08;  author: brian;  state: dead;  lines: +0 -0
+This Engine doesn't have a chance of ever working.
+=============================================================================
+
+RCS file: /home/CVSROOT/Chess/Chess/Piece.pm,v
+Working file: Chess/Piece.pm
+head: 0.6
+branch:
+locks: strict
+access list:
+symbolic names:
+	stable-0_5: 0.6.0.4
+	release-0_5: 0.6.0.2
+	development: 0.1.0.1
+	Brian: 0.1.0
+keyword substitution: kv
+total revisions: 8;	selected revisions: 1
+description:
+----------------------------
+revision 0.6
+date: 2002/03/17 19:36:03;  author: brian;  state: Exp;  lines: +15 -1
+branches:  0.6.4;
+Modified movement and validation to include check and checkmate validation
+=============================================================================
+
+RCS file: /home/CVSROOT/Chess/Chess/Validator.pm,v
+Working file: Chess/Validator.pm
+head: 0.3
+branch:
+locks: strict
+access list:
+symbolic names:
+	stable-0_5: 0.3.0.4
+	release-0_5: 0.3.0.2
+	development: 0.1.0.1
+	Brian: 0.1.0
+keyword substitution: kv
+total revisions: 5;	selected revisions: 1
+description:
+----------------------------
+revision 0.3
+date: 2002/03/17 19:36:03;  author: brian;  state: Exp;  lines: +47 -11
+branches:  0.3.4;
+Modified movement and validation to include check and checkmate validation
+=============================================================================
+
+RCS file: /home/CVSROOT/Chess/Chess/Piece/Bishop.pm,v
+Working file: Chess/Piece/Bishop.pm
+head: 1.2
+branch:
+locks: strict
+access list:
+symbolic names:
+	stable-0_5: 1.2.0.4
+	release-0_5: 1.2.0.2
+keyword substitution: kv
+total revisions: 3;	selected revisions: 1
+description:
+----------------------------
+revision 1.2
+date: 2002/02/27 01:27:54;  author: brian;  state: Exp;  lines: +37 -2
+branches:  1.2.4;
+All pieces now have move validation, with the exception of checking for check
+=============================================================================
+
+RCS file: /home/CVSROOT/Chess/Chess/Piece/King.pm,v
+Working file: Chess/Piece/King.pm
+head: 1.3
+branch:
+locks: strict
+access list:
+symbolic names:
+	stable-0_5: 1.3.0.4
+	release-0_5: 1.3.0.2
+keyword substitution: kv
+total revisions: 4;	selected revisions: 1
+description:
+----------------------------
+revision 1.3
+date: 2002/03/17 19:36:07;  author: brian;  state: Exp;  lines: +25 -1
+branches:  1.3.4;
+Modified movement and validation to include check and checkmate validation
+=============================================================================
+
+RCS file: /home/CVSROOT/Chess/Chess/Piece/Knight.pm,v
+Working file: Chess/Piece/Knight.pm
+head: 0.2
+branch:
+locks: strict
+access list:
+symbolic names:
+	stable-0_5: 0.2.0.4
+	release-0_5: 0.2.0.2
+	development: 0.1.0.1
+	Brian: 0.1.0
+keyword substitution: kv
+total revisions: 4;	selected revisions: 1
+description:
+----------------------------
+revision 0.2
+date: 2002/02/19 22:37:32;  author: brian;  state: Exp;  lines: +39 -2
+branches:  0.2.4;
+Pawn now signals its promotion
+Knight moves are allowed now
+=============================================================================
+
+RCS file: /home/CVSROOT/Chess/Chess/Piece/Pawn.pm,v
+Working file: Chess/Piece/Pawn.pm
+head: 0.6
+branch:
+locks: strict
+access list:
+symbolic names:
+	stable-0_5: 0.6.0.4
+	release-0_5: 0.6.0.2
+	development: 0.1.0.1
+	Brian: 0.1.0
+keyword substitution: kv
+total revisions: 8;	selected revisions: 1
+description:
+----------------------------
+revision 0.6
+date: 2002/02/19 22:37:32;  author: brian;  state: Exp;  lines: +17 -9
+branches:  0.6.4;
+Pawn now signals its promotion
+Knight moves are allowed now
+=============================================================================
+
+RCS file: /home/CVSROOT/Chess/Chess/Piece/Queen.pm,v
+Working file: Chess/Piece/Queen.pm
+head: 1.2
+branch:
+locks: strict
+access list:
+symbolic names:
+	stable-0_5: 1.2.0.4
+	release-0_5: 1.2.0.2
+keyword substitution: kv
+total revisions: 3;	selected revisions: 1
+description:
+----------------------------
+revision 1.2
+date: 2002/02/27 01:27:54;  author: brian;  state: Exp;  lines: +37 -2
+branches:  1.2.4;
+All pieces now have move validation, with the exception of checking for check
+=============================================================================
+
+RCS file: /home/CVSROOT/Chess/Chess/Piece/Rook.pm,v
+Working file: Chess/Piece/Rook.pm
+head: 1.2
+branch:
+locks: strict
+access list:
+symbolic names:
+	stable-0_5: 1.2.0.4
+	release-0_5: 1.2.0.2
+keyword substitution: kv
+total revisions: 3;	selected revisions: 1
+description:
+----------------------------
+revision 1.2
+date: 2002/02/27 01:27:54;  author: brian;  state: Exp;  lines: +51 -2
+branches:  1.2.4;
+All pieces now have move validation, with the exception of checking for check
+=============================================================================

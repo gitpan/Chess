@@ -1,0 +1,15 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+test.pl
+Chess.pm
+Chess/Validator.pm
+Chess/Board.pm
+Chess/Piece.pm
+Chess/Piece/Pawn.pm
+Chess/Piece/Knight.pm
+Chess/Piece/Bishop.pm
+Chess/Piece/Rook.pm
+Chess/Piece/Queen.pm
+Chess/Piece/King.pm

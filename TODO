@@ -1,0 +1,13 @@
+TODO as of 17-Mar-2002 (Happy St. Patrick's Day!)
+
+- Finish reachable functions for all piece types
+- Implement stalemate validation
+- Create the Chess::Engine which will have hooks for connecting UIs and AIs
+- Create rudimentary UI (no network or AI yet)
+
+Further Development:
+
+- Database recording of games
+- Tools to add to the game database
+- Rudimentary AI
+- network support for games over TCP/IP
