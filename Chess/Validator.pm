@@ -70,8 +70,8 @@ sub line_isopen {
     return 1 if !$deltax && !$deltay;
     # Credit to Cyril Scetbon <cyril.scetbon@wanadoo.fr for
     # debugging the following conditional expression
-    while ( ($deltay ? ($rank1 += $deltay) != $rank2 : 1) && 
-            ($deltax ? ($file1 += $deltax) != $file2) : 1) ){
+    while ( ($deltay ? (($rank1 += $deltay) != $rank2) : 1) && 
+            ($deltax ? (($file1 += $deltax) != $file2) : 1) ){
 	return 0 if defined ($board->{board}[$file1][$rank1]);
     }
     return 1;

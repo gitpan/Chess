@@ -35,7 +35,7 @@ our @EXPORT = qw(
     MOVE_ENPASSANT
     MOVE_CASTLE
 );
-our $VERSION = '0.5';
+our $VERSION = '0.5.2';
 
 
 # Preloaded methods go here.
