@@ -1,16 +1,17 @@
-Chess version 0.5
-=================
+Chess version 0.6.0
+===================
 
-The README is used to introduce the module and provide instructions on
-how to install the module, any machine dependencies it may have (for
-example C compilers and installed libraries) and any other information
-that should be provided before the module is installed.
+Chess 0.6.0 is a complete rewrite of Chess based on bug reports I've received
+as well as a desire to produce something a lot less 'hack-ish' than 0.5.2.
+I read Damian Conway's excellent book "Object-Oriented Perl" as a refresher
+prior to starting work on this version, and I'm very please with the results.
 
-A README file is required for CPAN modules since CPAN extracts the
-README file from a module distribution so that people browsing the
-archive can use it get an idea of the modules uses. It is usually a
-good idea to provide version information here so that people can
-decide whether fixes for the module are worth downloading.
+While this version is still in development, it's unlikely that I'm going to
+change anything here; rather, there are plans to add to this framework before
+ultimately producing a 1.0 version. The TODO file contains a list of features
+I'd like to see in 1.0. Please let me know if you can help with any of it.
+
+Happy hacking!
 
 INSTALLATION
 
@@ -21,13 +22,10 @@ To install this module type the following:
    make test
    make install
 
-DEPENDENCIES
-
-This module requires these other modules and libraries:
-
-   None
-
 COPYRIGHT AND LICENCE
 
-Copyright (C) 2002 Brian Richardson. This code is released under the GPL
-licence.
+Copyright (c) 2002, 2005 Brian Richardson. All rights reserved.
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself, either Perl version 5.8.6 or,
+at your option, any later version of Perl 5 you may have available.
