@@ -37,14 +37,14 @@ Brian Richardson <bjr@cpan.org>
 
 =head1 COPYRIGHT
 
-Copyright (c) 2002, 2005 Brian Richardson. All rights reserved. This module is
+Copyright (c) 2002, 2007 Brian Richardson. All rights reserved. This module is
 Free Software. It may be modified and redistributed under the same terms as
 Perl itself.
 
 =cut
 package Chess;
 
-our $VERSION = '0.6.0';
+our $VERSION = '0.6.1';
 
 use Chess::Game;
 
