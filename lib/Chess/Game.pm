@@ -883,7 +883,7 @@ sub _player_has_moves {
 	return $obj_data->{_player_has_moves}{$player}{$movenum};
     }
     foreach my $piece (@{$obj_data->{pieces}{$player}}) {
-	next if ($piece->isa('Chess::Piece::King') or $piece->captured());
+	next if (!$piece->isa('Chess::Piece::King') && $piece->captured());
 	my @rsqs = $piece->reachable_squares();
 	my $csq = $piece->get_current_square();
 	foreach my $sq (@rsqs) {

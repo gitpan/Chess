@@ -44,7 +44,7 @@ Perl itself.
 =cut
 package Chess;
 
-our $VERSION = '0.6.1';
+our $VERSION = '0.6.2';
 
 use Chess::Game;
 
